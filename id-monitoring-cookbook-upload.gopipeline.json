@@ -39,7 +39,7 @@
           "tabs": [
             {
               "name": "is-this-loud",
-              "path": "results/all/*.txt"
+              "path": "results/results/all/*.txt"
             }
           ],
           "artifacts": [
