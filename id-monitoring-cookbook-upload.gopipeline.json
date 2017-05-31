@@ -53,7 +53,7 @@
       ]
     },
     {
-      "name": "echo-hello",
+      "name": "where-mai",
       "fetch_materials": true,
       "never_cleanup_artifacts": true,
       "clean_working_directory": false,
