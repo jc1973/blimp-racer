@@ -1,3 +1,4 @@
 #!/bin/sh
 
-echo hello > hello.txt
+mkdir -p results/all
+echo hello > results/all/hello.txt
