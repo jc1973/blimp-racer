@@ -22,12 +22,7 @@
         {
           "name": "echo-hello",
           "environment_variables": [],
-          "tabs": [ {
-              "name": "Result",
-              "path": "hello.txt"
-            }],
           "resources": [],
-          "artifacts": [],
           "properties": [],
           "run_instance_count": null,
           "timeout": 0,
@@ -39,6 +34,19 @@
               "command": "./test.sh",
               "arguments": [ ],
               "working_directory": "."
+            }
+          ],
+          "tabs": [
+            {
+              "name": "is-this-loud",
+              "path": "results/all/*.txt"
+            }
+          ],
+          "artifacts": [
+            {
+              "source": "result",
+              "destination": "result",
+              "type": "test"
             }
           ]
         }
