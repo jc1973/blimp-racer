@@ -41,7 +41,7 @@
               "on_cancel" : null,
               "command": "/bin/echo",
               "arguments": [ "hello", ">", "file.txt" ],
-              "working_directory": null
+              "working_directory": "."
             }
           ]
         }
