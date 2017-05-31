@@ -1,0 +1,51 @@
+{
+  "name": "get-tests",
+  "environment_variables": [],
+  "group" : "get-tests",
+  "auto_pr": false,
+  "materials": [
+    {
+      "url": "git@github.com:jc1973/blimp-racer.git",
+      "type": "git",
+      "branch": "master",
+      "name": "git-repo"
+    }
+  ],
+  "stages": [
+    {
+      "name": "echo-hello",
+      "fetch_materials": true,
+      "never_cleanup_artifacts": true,
+      "clean_working_directory": false,
+      "approval": {
+        "type": "manual",
+        "users": [],
+        "roles": [
+        ]
+      },
+      "environment_variables": [],
+      "jobs": [
+        {
+          "name": "echo-hello",
+          "environment_variables": [],
+          "tabs": [],
+          "resources": [],
+          "artifacts": [],
+          "properties": [],
+          "run_instance_count": null,
+          "timeout": 0,
+          "tasks": [
+            {
+              "type": "exec",
+              "run_if": "passed",
+              "on_cancel" : null,
+              "command": "/bin/echo",
+              "arguments": [ "hello", ">", "file.txt" ],
+              "working_directory": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
