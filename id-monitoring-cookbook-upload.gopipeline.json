@@ -44,8 +44,8 @@
           ],
           "artifacts": [
             {
-              "source": "result",
-              "destination": "result",
+              "source": "results",
+              "destination": "results",
               "type": "test"
             }
           ]
