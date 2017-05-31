@@ -28,7 +28,10 @@
         {
           "name": "echo-hello",
           "environment_variables": [],
-          "tabs": [],
+          "tabs": [ {
+              "name": "Result",
+              "path": "hello.txt"
+            }],
           "resources": [],
           "artifacts": [],
           "properties": [],
