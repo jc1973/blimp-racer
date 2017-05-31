@@ -39,8 +39,8 @@
               "type": "exec",
               "run_if": "passed",
               "on_cancel" : null,
-              "command": "/bin/echo",
-              "arguments": [ "hello", ">", "file.txt" ],
+              "command": "./test.sh",
+              "arguments": [ ],
               "working_directory": "."
             }
           ]
