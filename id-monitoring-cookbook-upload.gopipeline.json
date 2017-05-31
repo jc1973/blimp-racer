@@ -54,7 +54,7 @@
     },
     {
       "name": "where-mai",
-      "fetch_materials": true,
+      "fetch_materials": false,
       "never_cleanup_artifacts": true,
       "clean_working_directory": false,
       "environment_variables": [],
